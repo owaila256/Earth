@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grade 10 Earth Test</title>
+  <style>
+    :root {
+      --bg: #1c1c1c;
+      --panel: #2a2a2a;
+      --accent: #ffbb00;
+      --text: #f0f0f0;
+      --hover: #3c3c3c;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background: var(--panel);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: var(--accent);
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--text);
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: var(--hover);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: var(--panel);
+      border-radius: 1rem;
+    }
+
+    .placeholder-box {
+      border: 2px dashed var(--hover);
+      padding: 2rem;
+      text-align: center;
+      color: #aaa;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+      }
+      nav a {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Grade 10 Earth Test</h1>
+    <nav>
+      <a href="#">Reviewers</a>
+      <a href="#">Examinations</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="placeholder-box">
+      📚 Reviewer content coming soon!<br />
+      (1–50 items will be listed here later)
+    </div>
+  </main>
+</body>
+</html>
