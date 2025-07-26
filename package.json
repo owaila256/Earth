@@ -1,0 +1,12 @@
+{
+  "name": "quantombot-afk",
+  "version": "1.0.0",
+  "description": "A simple AFK Minecraft bot using mineflayer",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.11.0"
+  }
+}
